@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #121212; /* dark background */
+}
+
+/* Main container */
+.container {
+  text-align: center;
+  padding: 30px;
+  color: #ffffff;
+}
+
+/* Heading */
+h1 {
+  color: #f5f5f5;
+}
+
+/* Card styling */
+.card {
+  background: #1e1e1e;
+  color: #e0e0e0;
+  padding: 20px;
+  margin: 15px auto;
+  width: 320px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.6);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.8);
+}
+
+/* Inputs */
+input {
+  width: 90%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #444;
+  background: #2c2c2c;
+  color: #fff;
+}
+
+input:focus {
+  border-color: #00c853; /* neon green */
+  outline: none;
+}
+
+/* Buttons */
+button {
+  padding: 10px 15px;
+  background: #00c853; /* bright green */
+  color: black;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #00e676;
+}
+
+/* Error */
+.error {
+  color: #ff5252;
+  font-size: 12px;
+  margin: 0;
+}
+
+/* Success box */
+.success {
+  background: #1b5e20;
+  color: #a5d6a7;
+  border-left: 5px solid #00e676;
+}
